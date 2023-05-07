@@ -1,0 +1,6 @@
+MAINTENANCE_MODE=false
+RP_ID=localhost
+RP_NAME=localhost
+RP_ORIGIN=http://localhost:8788
+SESSION_SECRET=idpidpidp
+AUTH_SESSION_SECRET=idpidpidp

@@ -1,0 +1,15 @@
+name = "idp"
+compatibility_date = "2022-04-05"
+compatibility_flags = ["streams_enable_constructors"]
+node_compat = true
+
+kv_namespaces = [
+    { binding = "SESSION_KV", id = "5875b3221461467d8558562cf3c52522", preview_id = "e9afb6fec28a48fcbdb01d2f511868b8" },
+    { binding = "STORE_KV", id = "c9e03616ce744a3ba25980f2ec407477", preview_id = "2c7737f6809c40f4926e2c8ba1c5bbc9" },
+    { binding = "AUTH_SESSION_KV", id = "eeabf4be5b854257be1388d6da8c89af", preview_id = "3aeace08d833443fb6a3df4bfe2fa03b" }
+]
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "idp-test"
+database_id = "75ab6b0a-41cb-4e5f-bce8-9df0866b0667"
